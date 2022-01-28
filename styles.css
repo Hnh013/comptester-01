@@ -88,29 +88,35 @@ h3, h2 {
     font-weight: bold;
 }
 
-.avatar-wrapper {
+/* large */
+.avatar-wrapper-lg {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
     background-color: #CCCCCC;
 }
 
-.avatar-wrapper-sm {
+
+/* normal */
+.avatar-wrapper {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
     background-color: #CCCCCC;
 }
-.avatar-wrapper-lg {
+
+/* xtra large */
+.avatar-wrapper-xl {
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
     background-color: #CCCCCC;
 }
 
-.avatar-wrapper-xl {
-    height: 10rem;
-    width: 10rem;
+/*small*/
+.avatar-wrapper-sm {
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     background-color: #CCCCCC;
 }
