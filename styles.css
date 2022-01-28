@@ -96,6 +96,12 @@ h3, h2 {
     background-color: #CCCCCC;
 }
 
+.avatar-wrapper-md {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+}
 
 /* normal */
 .avatar-wrapper {
@@ -113,8 +119,15 @@ h3, h2 {
     background-color: #CCCCCC;
 }
 
-/*small*/
 .avatar-wrapper-sm {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+}
+
+/*small*/
+.avatar-wrapper-xs {
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
