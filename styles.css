@@ -35,6 +35,11 @@ a , a:active , a:hover , a:visited {
     color: inherit;
 }
 
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 
 
 /*HOME*/
@@ -134,3 +139,167 @@ h3, h2 {
     background-color: #CCCCCC;
 }
 
+/*///// badges //////*/
+
+.badge {
+    position: absolute;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btm-rgt {
+    bottom:5%;
+    right: 5%;
+}
+
+.moon {
+    border-radius: 50%;
+    transform: rotate(22.5deg);
+    /* w- h = x , bs-  -x/4 x/8 0 0 color  */
+}
+
+.mobile {
+    background-color: transparent;
+    /*  height - rem of avatar , width - 3/4 rem of avatar ,     */
+    height: 2rem;
+    width: 1.5rem;
+    border-radius: 0.125rem;
+    box-shadow: inset 0px -0.0625rem 0.0625rem 0.3125rem #32f336;
+}
+
+
+.ring {
+    background-color: transparent;
+    border-color: green;
+    border-radius: 50%;
+}
+
+.ring-xl {
+    height: 1rem;
+    width: 1rem;
+    border-style: solid;
+    border-width: 0.5rem;
+}
+
+.ring-lg {
+    height: 0.75rem;
+    width: 0.75rem;
+    border-style: solid;
+    border-width: 0.375rem;
+}
+
+.ring-md {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-style: solid;
+    border-width: 0.375rem;
+}
+
+.ring-nm {
+    height: 0.4325rem;
+    width: 0.4325rem;
+    border-style: solid;
+    border-width: 0.27625rem;
+}
+
+.ring-effects {
+    background-color: transparent;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 1rem groove green;
+} 
+
+.ring-effects:hover {
+    border: 1rem ridge green;
+}
+
+.ring-io {
+    background-color: transparent;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 1rem inset green;
+}
+
+.ring-io:hover {
+    border: 1rem outset green;
+}
+
+.circle {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.badge-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+
+.badge-xs {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-width: 0.0625rem;
+}
+
+.badge-sm {
+    height: 0.75rem;
+    width: 0.75rem;
+    border-width: 0.0625rem;
+  }
+
+  .badge-nm {
+    height: 1rem;
+    width: 1rem;
+    
+    border-width: 0.0625rem;
+  }
+
+  .moon-nm {
+    box-shadow: -0.25rem 0.125rem 0 0 gold;
+  }
+
+  .badge-md {
+    height: 1.25rem;
+    width: 1.25rem;
+    
+    border-width: 0.0625rem;
+  }
+
+  .moon-md {
+    box-shadow: -0.3125rem 0.15625rem 0 0 gold;
+  }
+
+  .badge-lg {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-width: 0.0625rem;
+    
+  }
+
+ 
+
+  .moon-lg {
+    box-shadow: -0.375rem 0.1875rem 0 0 gold;
+  }
+
+  .badge-xl {
+    height: 2rem;
+    width: 2rem;
+    border-width: 1rem;
+  }
+
+  .moon-xl {
+    box-shadow: -0.5rem 0.25rem 0 0 gold;
+  }
+
+  
