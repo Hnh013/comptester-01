@@ -45,21 +45,21 @@
 
   
   html {
-      font-size: 75%;
+      font-size: 86.5%;
   }
   @media only screen and (min-width: 540px) {
   html {
-      font-size: 81.25%;
+      font-size: 89.875%;
   }
   }
   @media only screen and (min-width: 768px) {
   html {
-      font-size: 87.5%;
+      font-size: 93.25%;
   }
   }
   @media only screen and (min-width: 992px) {
   html {
-      font-size: 93.25%;
+      font-size: 96.625%;
   }
   }
   @media only screen and (min-width: 1280px) {
