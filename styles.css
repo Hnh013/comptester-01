@@ -453,7 +453,7 @@ box-shadow: 0 0 5rem 0 var(--over) inset;
         display: flex;
     }
     
-     .nav-search {
+     .nav-links {
         display: none;
     }
 } /*
