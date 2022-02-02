@@ -391,13 +391,14 @@ font-size: 2rem !important;
 }
 
 input {
+    font-size: 1.125rem;
     flex-grow: 1;
     color:var(--over);
     border: none;
     outline: none;
     background-color: transparent;
     border-bottom: 0.25rem solid var(--over); 
-    padding: 0.25rem;
+    padding: 0.125rem;
 }
 
 input::placeholder {
