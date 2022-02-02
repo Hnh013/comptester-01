@@ -365,6 +365,7 @@ a , a:active , a:focus{
 }
 
 .btn-icon {
+font-size: 2rem !important;
    color: var(--over);
 }
 
@@ -373,13 +374,14 @@ a , a:active , a:focus{
     justify-content: space-between;
     color: var(--over);
     background-color: var(--smoke);
-    padding: 0.5rem 0;
+    padding: 0.75rem 0.5rem;
 }
 
 .nav-brand {
     display: flex;
     justify-content: space-between;
     padding: 0 0.5rem;
+    font-size: 1.5rem;
 }
 
 .nav-search {
@@ -394,7 +396,8 @@ input {
     border: none;
     outline: none;
     background-color: transparent;
-    border-bottom: 0.25rem solid var(--over) 
+    border-bottom: 0.25rem solid var(--over); 
+    padding: 0.25rem;
 }
 
 input::placeholder {
@@ -421,6 +424,7 @@ box-shadow: 0 0 5rem 0 var(--over) inset;
     justify-content: space-around;
     gap: 1rem; 
     padding: 0 0.5rem;
+    font-size: 1.25rem;
 }
 
 @media only screen and (max-width: 992px) {
